@@ -19,7 +19,6 @@ img {
     max-width: 100%;
 }
 nav {
-    background-color: #ffffff;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -80,9 +79,19 @@ p {
     line-height: 150%;
 }
 
-nav ul li {
+nav ul li a{
     list-style: none;
+    text-decoration: none!important;
     font-family: "New Rocker", system-ui;
+    transition: all 0.3s ease-in-out; 
+}
+
+nav ul li a:hover{
+    color: #ba2a2d;
+    text-shadow: 0 0 10px #3e3e3e,
+                 0 0 20px #3e3e3e,
+                 0 0 30px #3e3e3e,
+                 0 0 40px #3e3e3e;
 }
 
 .skill-list li:nth-child(1) {
