@@ -87,11 +87,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #ba2a2d;
-    text-shadow: 0 0 10px #3e3e3e,
-                 0 0 20px #3e3e3e,
-                 0 0 30px #3e3e3e,
-                 0 0 40px #3e3e3e;
+    color: #00704a;
 }
 
 .skill-list li:nth-child(1) {
